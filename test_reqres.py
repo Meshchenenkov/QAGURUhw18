@@ -4,10 +4,9 @@ import logging
 import allure
 import jsonschema
 import pytest
-import requests
 from allure_commons._allure import step
 from allure_commons.types import AttachmentType
-from requests import Response
+from api_requests import Response
 
 from utils import load_schema
 

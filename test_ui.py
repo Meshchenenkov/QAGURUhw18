@@ -1,6 +1,3 @@
-from time import sleep
-
-import requests
 from allure_commons._allure import step
 from allure_commons.types import AttachmentType
 from selene import browser
